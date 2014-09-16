@@ -12,12 +12,9 @@
 
 @property (nonatomic, weak) IBOutlet UILabel *questionLabel;
 @property (nonatomic, weak) IBOutlet UILabel *answerLabel;
-
 @end
 
 @implementation QuizViewController
-
-
 
 - (void)viewDidLoad
 {
@@ -26,11 +23,11 @@
 }
 
 
--(IBAction)showQuestion:(id)sender){
+-(IBAction)showQuestion:(id)sender{
 
 }
 
--(IBAction)showAnswer:(id)sender){
+-(IBAction)showAnswer:(id)sender{
     
 }
 

@@ -6,8 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuizViewController">
             <connections>
-                <outlet property="answerLabel" destination="Ebs-Wy-LGF" id="13A-Wk-8yo"/>
-                <outlet property="questionLabel" destination="I5g-jB-mdx" id="iCa-kq-WW3"/>
+                <outlet property="answerLabel" destination="Ebs-Wy-LGF" id="G4U-V1-47h"/>
+                <outlet property="questionLabel" destination="I5g-jB-mdx" id="n6j-NG-EKg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -36,7 +36,7 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="showQuestion:" destination="-1" eventType="touchUpInside" id="DAz-dA-YJx"/>
+                        <action selector="showQuestion:" destination="-1" eventType="touchUpInside" id="nQi-0M-kJs"/>
                     </connections>
                 </button>
                 <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g10-qm-6nB">
@@ -46,7 +46,7 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="showAnswer:" destination="-1" eventType="touchUpInside" id="j8C-K9-fkd"/>
+                        <action selector="showAnswer:" destination="-1" eventType="touchUpInside" id="Uon-fC-bj0"/>
                     </connections>
                 </button>
             </subviews>
