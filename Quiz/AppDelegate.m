@@ -7,12 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "QuizViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    QuizViewController *QVC =  [QuizViewController new];
+    self.window.rootViewController = QVC;
+
+    //^^ This instance will then receive the initWithNibName:bundle: message, which will trigger loading the NIB file compiled from BNRQuizViewController.xib and the creation of the model objects.
+
     return YES;
 }
 							
