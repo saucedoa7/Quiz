@@ -21,6 +21,8 @@
 		50999A1F19C7B68400395421 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50999A0119C7B68400395421 /* UIKit.framework */; };
 		50999A2719C7B68400395421 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50999A2519C7B68400395421 /* InfoPlist.strings */; };
 		50999A2919C7B68400395421 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50999A2819C7B68400395421 /* QuizTests.m */; };
+		50999A3519C7CB4B00395421 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50999A3319C7CB4B00395421 /* QuizViewController.m */; };
+		50999A3619C7CB4B00395421 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50999A3419C7CB4B00395421 /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		50999A2419C7B68400395421 /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		50999A2619C7B68400395421 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50999A2819C7B68400395421 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		50999A3219C7CB4B00395421 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		50999A3319C7CB4B00395421 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		50999A3419C7CB4B00395421 /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 		509999F119C7B68400395421 = {
 			isa = PBXGroup;
 			children = (
+				50999A3219C7CB4B00395421 /* QuizViewController.h */,
+				50999A3319C7CB4B00395421 /* QuizViewController.m */,
+				50999A3419C7CB4B00395421 /* QuizViewController.xib */,
 				50999A0319C7B68400395421 /* Quiz */,
 				50999A2219C7B68400395421 /* QuizTests */,
 				509999FC19C7B68400395421 /* Frameworks */,
@@ -231,6 +239,7 @@
 				50999A1619C7B68400395421 /* Images.xcassets in Resources */,
 				50999A0819C7B68400395421 /* InfoPlist.strings in Resources */,
 				50999A1119C7B68400395421 /* Main.storyboard in Resources */,
+				50999A3619C7CB4B00395421 /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 				50999A1419C7B68400395421 /* ViewController.m in Sources */,
 				50999A0E19C7B68400395421 /* AppDelegate.m in Sources */,
 				50999A0A19C7B68400395421 /* main.m in Sources */,
+				50999A3519C7CB4B00395421 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
